@@ -1,0 +1,158 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Mi ordenador no se enciende",
+      "description": "Después de estar usando el ordenador durante 3 horas, se apagó de repente y no ha vuelto a encender.",
+      "author": "Manuel",
+      "date": 1443661200000,
+      "solved": false
+    },
+    {
+      "id": 2,
+      "title": "No tengo conexión a internet",
+      "description": "Ayer funcionaba perfectamente, pero hoy he intentado conectarme y no hay manera. El icono del estado de red sale con una admiración.",
+      "author": "Arturo",
+      "date": 1443751200000,
+      "solved": true
+    },
+    {
+      "id": 3,
+      "title": "Olvidé la clave de mi correo",
+      "content": "Desde hace mucho tiempo en mi navegador recordaba mi clave para acceder al correo. Pero ahora que uso otro navegador necesito introducirla y me he dado cuenta de que la olvidé.",
+      "author": "Silvia",
+      "date": 1443841200000,
+      "solved": false
+    },
+    {
+      "id": 4,
+      "title": "La pantalla se ve muy azul",
+      "content": "De repente mi monitor emite una imagen muy azul, es bastante desagradable trabajar así.",
+      "author": "Francisco",
+      "date": 1443931200000,
+      "solved": true
+    },
+    {
+      "id": 5,
+      "title": "El ordenador se reinicia solo",
+      "content": "Muchas veces estoy trabajando y el ventilador del ordenador empieza a hacer mucho ruído hasta que llega un momento en que se reinicia.",
+      "author": "Marta",
+      "date": 1444021200000,
+      "solved": false
+    },
+    {
+      "id": 6,
+      "title": "Los juegos van muy lentos",
+      "content": "Estoy tratando de jugar al GTA V en mi ordenador y va a tirones ¿qué puedo hacer para solucionarlo?",
+      "author": "Mariano",
+      "date": 1444111200000,
+      "solved": false
+    },
+    {
+      "id": 7,
+      "title": "Creo que me roban el WiFi",
+      "content": "Por la noche el internet va bastante lento y me parece muy sospechoso ver parpadear las luces del router más que nunca en todo el día, ¿es posible que conozcan mi clave de WiFi?",
+      "author": "Sonia",
+      "date": 1444201200000,
+      "solved": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "¿Has probado a cambiarle el adaptador de corriente?",
+      "author": "Jose",
+      "problemId": 1
+    },
+    {
+      "id": 2,
+      "content": "No. No tengo ningún otro de repuesto.",
+      "author": "Manuel",
+      "problemId": 1
+    },
+    {
+      "id": 3,
+      "content": "Está bien. Te facilitaremos uno.",
+      "author": "Jose",
+      "problemId": 1
+    },
+    {
+      "id": 4,
+      "content": "¿Has probado a apagar y encender el router?",
+      "author": "Cristina",
+      "problemId": 2
+    },
+    {
+      "id": 5,
+      "content": "Sí, y sigue sin funcionar. Según veo, parpadea una luz que pone DSL",
+      "author": "Arturo",
+      "problemId": 2
+    },
+    {
+      "id": 6,
+      "content": "Asegúrese de que los teléfonos de la casa están conectados con su correspondiente microfiltro.",
+      "author": "Cristina",
+      "problemId": 2
+    },
+    {
+      "id": 7,
+      "content": "Efectivamente, ese es el problema. Instalé un teléfono nuevo en la casa y olvidé ponérselo. Ya está solucionado. Gracias.",
+      "author": "Arturo",
+      "problemId": 2
+    },
+    {
+      "id": 8,
+      "content": "Me alegra haberle ayudado a resolver su problema.",
+      "author": "Cristina",
+      "problemId": 2
+    },
+    {
+      "id": 9,
+      "content": "¿De qué cuenta de correo se trata?",
+      "author": "Luis",
+      "problemId": 3
+    },
+    {
+      "id": 10,
+      "content": "Es posible que el conector ande un poco suelto, comprueba que está bien conectado.",
+      "author": "Jose",
+      "problemId": 4
+    },
+    {
+      "id": 11,
+      "content": "Sí que está bien conectado, acabo de comprobarlo.",
+      "author": "Francisco",
+      "problemId": 4
+    },
+    {
+      "id": 12,
+      "content": "Quizá el cable esté deteriorado, ¿podrías probar con otro cable?",
+      "author": "Jose",
+      "problemId": 4
+    },
+    {
+      "id": 13,
+      "content": "El único cable que tengo de este estilo tiene clavija de enchufe inglés.",
+      "author": "Francisco",
+      "problemId": 4
+    },
+    {
+      "id": 14,
+      "content": "No no, quiero decir del cable con el que se conecta al ordenador.",
+      "author": "Jose",
+      "problemId": 4
+    },
+    {
+      "id": 15,
+      "content": "Ah vale. Efectivamente, era un problema del cable ¡muchas gracias por tu ayuda!",
+      "author": "Francisco",
+      "problemId": 4
+    },
+    {
+      "id": 16,
+      "content": "De nada.",
+      "author": "Jose",
+      "problemId": 4
+    }
+  ]
+}

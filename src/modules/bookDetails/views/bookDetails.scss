@@ -1,0 +1,31 @@
+.book-details {
+  overflow-y: scroll;
+  @media (orientation: landscape) {
+
+    .header {
+      display: none;
+    }
+
+    .content {
+      top: 0;
+    }
+  }
+
+  .content {
+    padding: 25px;
+
+    label {
+      display: inline-block;
+      font-weight: bold;
+      width: 100px;
+    }
+
+    .language {
+      width: 180px;
+    }
+
+    button {
+      margin: 15px 25px;
+    }
+  }
+}

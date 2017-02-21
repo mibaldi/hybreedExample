@@ -1,0 +1,67 @@
+.books-view {
+
+  @media (orientation: landscape) {
+
+    .header {
+      display: none;
+    }
+
+    .content {
+      top: 0;
+    }
+  }
+
+  .controls {
+    @include absolute(5px, 0, auto, 0);
+
+    fieldset {
+
+      label {
+        margin-right: 10px;
+      }
+
+      &.filter {
+        @include absolute(0, auto, auto, 0);
+
+        input {
+          width: 150px;
+        }
+      }
+
+      &.sort {
+        @include absolute(0, 0, auto, auto);
+      }
+    }
+  }
+
+  .list {
+    @include absolute(50px, 0, 0, 0);
+    border-top: 1px solid gray;
+    overflow: auto;
+
+    .books-collection-view {
+      height: 100%;
+      overflow: auto;
+
+      .books-child-view {
+        position: relative;
+        padding: 15px;
+        border-bottom: 1px solid silver;
+
+        @media (orientation: landscape) {
+          &.current {
+            background: #EEE;
+          }
+        }
+
+        .language {
+          font-size: 10pt;
+        }
+
+        .delete {
+          @include absolute(15px, 15px, auto, auto);
+        }
+      }
+    }
+  }
+}

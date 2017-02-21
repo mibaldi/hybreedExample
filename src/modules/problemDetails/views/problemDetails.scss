@@ -1,0 +1,57 @@
+.problem-details {
+
+  overflow-y: scroll;
+  @media (orientation: landscape) {
+
+    .header {
+      display: none;
+    }
+
+    .content {
+      top: 0;
+    }
+  }
+
+  .content {
+    padding-top: 6px;
+    label {
+
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    button {
+      margin: 15px 25px;
+    }
+    .check {
+      @include absolute(20px, 15px, auto, auto);
+      font-size: 30px;
+      color: gray;
+      &.check-solved {
+        color: green;
+      }
+    }
+  }
+  .list {
+    border-top: 1px solid gray;
+    overflow: auto;
+
+    .comments-collection-view {
+      height: 100%;
+      overflow: auto;
+
+      .comments-child-view {
+        position: relative;
+        padding: 15px;
+        border-bottom: 1px solid gray;
+        .remove {
+          color: red;
+          &.hide {
+            display:none;
+          }
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.problems-view {
+
+  @media (orientation: landscape) {
+
+    .header {
+      display: none;
+    }
+
+    .content {
+      top: 0;
+    }
+  }
+
+
+  .list {
+    @include absolute(0, 0, 0, 0);
+    border-top: 1px solid gray;
+    overflow: auto;
+
+    .problems-collection-view {
+      height: 100%;
+      overflow: auto;
+
+      .problems-child-view {
+        position: relative;
+        padding: 15px;
+        border-bottom: 1px solid gray;
+        &.current {
+          background: #EEE;
+        }
+        .info {
+
+          .check {
+            @include absolute(20px, 15px, auto, auto);
+            font-size: 30px;
+            color: green;
+            &.hide-check {
+              display: none;
+
+            }
+
+          }
+        }
+
+
+      }
+
+    }
+  }
+}
